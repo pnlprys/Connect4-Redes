@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     TcpListener server;
     Thread listenThread;
     int listenPort = 5050; // Porta para escutar conexões
-    string otherIp = "10.57.10.25"; // IP do outro peer (troque para o IP real)
+    string otherIp = "10.57.1.128"; // IP do outro peer (troque para o IP real)
 
     private void Awake()
     {
