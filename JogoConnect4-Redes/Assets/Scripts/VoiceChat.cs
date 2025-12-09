@@ -10,7 +10,7 @@ using UnityEngine;
 public class VoiceChat : MonoBehaviour
 {
     public int localPort = 50005;
-    public string remoteIp = "10.57.1.128";
+    public string remoteIp = "10.57.1.131";
     public int remotePort = 50005;
     public int sampleRate = 48000;
     public int frameMs = 20; // 20 ms por pacote
